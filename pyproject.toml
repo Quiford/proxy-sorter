@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quiford-proxy-sorter"
+version = "1.0.0"
+description = "Format and validate proxy lists with GUI and CLI tools."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Quiford" }]
+keywords = ["python", "proxy", "cybersecurity", "socks5", "networking"]
+dependencies = ["PySocks>=1.7.1"]
+
+[project.urls]
+Homepage = "https://github.com/Quiford"
+Issues = "https://github.com/Quiford"
+
+[project.scripts]
+proxysorter = "proxysorter_cli:main"
+
+[tool.setuptools.packages.find]
+include = ["proxysorter*"]
