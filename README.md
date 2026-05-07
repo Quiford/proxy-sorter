@@ -94,6 +94,10 @@ proxysorter/
   io_utils.py
   models.py
   parser.py
+screenshots/
+  QUIFORD PROXY FORMAT FIXER.png
+  QUIFORD PROXY CHECKER UNSCANNED.png
+  QUIFORD PROXY CHECKER COMPLETED.png
 proxy_fixer_gui.py
 test_proxy.py
 proxysorter_cli.py
