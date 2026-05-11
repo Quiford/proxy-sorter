@@ -86,23 +86,25 @@ Check command:
 python proxysorter_cli.py check --help
 ```
 
-## Project structure
+## Project Structure
 
-```txt
+```text
 proxysorter/
-  checker.py
-  io_utils.py
-  models.py
-  parser.py
-screenshots/
-  QUIFORD PROXY FORMAT FIXER.png
-  QUIFORD PROXY CHECKER UNSCANNED.png
-  QUIFORD PROXY CHECKER COMPLETED.png
-proxy_fixer_gui.py
-test_proxy.py
-proxysorter_cli.py
-tests/
-docs/
+├── checker.py
+├── io_utils.py
+├── models.py
+├── parser.py
+│
+├── screenshots/
+│   ├── quiford-proxy-checker-completed.png
+│   ├── quiford-proxy-checker-unscanned.png
+│   └── quiford-proxy-format-fixer.png
+│
+├── proxy_fixer_gui.py
+├── test_proxy.py
+├── proxysorter_cli.py
+├── tests/
+└── docs/
 ```
 
 ## Community files
