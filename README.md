@@ -13,6 +13,27 @@ If you want custom Python projects, contact me on Telegram: **[@Quiford](https:/
 This is a beginner-friendly cybersecurity utility project focused on workflow automation and proxy list quality checks.  
 It is designed to be simple to run, easy to extend, and clean enough for open-source collaboration.
 
+# Screenshots
+
+## Quiford Proxy Format Fixer
+
+![Quiford Proxy Format Fixer](screenshots/quiford-proxy-format-fixer.png)
+
+---
+
+## Quiford Proxy Checker... Status: Unscanned
+
+![Quiford Proxy Checker... Status: Unscanned](screenshots/quiford-proxy-checker-unscanned.png)
+
+---
+
+## Quiford Proxy Checker... Status: Completed
+
+![Quiford Proxy Checker... Status: Completed](screenshots/quiford-proxy-checker-completed.png)
+
+---
+
+
 ## Features
 
 - Raw-to-formatted conversion (`host:port:user:password` -> `type,host,port,user,password`)
